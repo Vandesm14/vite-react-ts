@@ -8,7 +8,8 @@
     "test:watch": "jest --watch",
     "ts-check": "tsc --noEmit --watch",
     "eslint": "eslint .",
-    "format:check": "prettier -l \"**/*.{ts,tsx,html}\""
+    "format": "prettier -w \"**/*.{ts,tsx,html}\"",
+    "format:check": "prettier -c \"**/*.{ts,tsx,html}\""
   },
   "dependencies": {
     "react": "^18.2.0",
